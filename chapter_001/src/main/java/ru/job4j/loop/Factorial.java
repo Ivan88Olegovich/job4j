@@ -9,11 +9,6 @@ public class Factorial {
 
             result = i * result;
 
-            if (n == 0) {
-                result = 1;
-            }
-
-
         }
         return result;
     }
