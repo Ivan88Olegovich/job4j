@@ -35,7 +35,7 @@ public class FindLoopTest {
     @Test
     public void whenFind1() {
         int[] input = new int[] {5, 33, 10, 2, 4};
-        int value = 2;
+        int value = 8;
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexOf(input, value, start, finish);
