@@ -33,9 +33,6 @@ public class MatrixCheck {
             if (monoHorizontal(board, index) || monoVertical(board, index)) {
                 result = true;
                 break;
-            } else {
-                result = false;
-
             }
 
 
