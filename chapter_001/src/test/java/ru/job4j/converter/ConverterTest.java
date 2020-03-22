@@ -1,4 +1,4 @@
-package converter;
+package ru.job4j.converter;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,7 +11,7 @@ public class ConverterTest {
         int in = 140;
         int expected = 2;
         int out = Converter.rubleToEuro(in);
-        Assert.assertEquals(expected,out);
+        Assert.assertEquals(expected, out);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class ConverterTest {
         int in = 160;
         int expected = 2;
         int out = Converter.rubleToDollar(in);
-        Assert.assertEquals(expected,out);
+        Assert.assertEquals(expected, out);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class ConverterTest {
         int in = 2;
         int expected = 140;
         int out = Converter.euroToRuble(in);
-        Assert.assertEquals(expected,out);
+        Assert.assertEquals(expected, out);
     }
 
     @Test
@@ -35,7 +35,7 @@ public class ConverterTest {
         int in = 2;
         int expected = 120;
         int out = Converter.dollarToRuble(in);
-        Assert.assertEquals(expected,out);
+        Assert.assertEquals(expected, out);
     }
 
 

@@ -6,7 +6,7 @@ public class Fit {
         return (height - 100) * 1.15;
     }
 
-    public static double womanWeight (double height) {
+    public static double womanWeight(double height) {
         return (height - 110) * 1.15;
     }
 

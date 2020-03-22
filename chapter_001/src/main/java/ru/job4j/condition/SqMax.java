@@ -9,21 +9,23 @@ public class SqMax {
                     result = first;
                 }
             }
-        }  if (second > third) {
+        }
+        if (second > third) {
             if (second > forth) {
-                if (second>first){
-                result = second;}
+                if (second > first) {
+                result = second;
+                }
             }
-        }  if (third > forth) {
-                if (third >first){
-                    if (third>second){
+        }
+        if (third > forth) {
+                if (third > first) {
+                    if (third > second) {
                         result = third;
                     }
                 }
-            }
-         else {
-            result = forth;}
-
-            return result;
+            } else {
+            result = forth;
+         }
+         return result;
         }
     }

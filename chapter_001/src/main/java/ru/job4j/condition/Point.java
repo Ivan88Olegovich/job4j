@@ -2,12 +2,12 @@ package ru.job4j.condition;
 
 public class Point {
 
-    public static double distence (int x1, int y1, int x2, int y2) {
+    public static double distence(int x1, int y1, int x2, int y2) {
         double a = x2 - x1;
         double b = y2 - y1;
-        a = Math.pow(a,2);
-        b = Math.pow(b,2);
-        double c = (a + b );
+        a = Math.pow(a, 2);
+        b = Math.pow(b, 2);
+        double c = (a + b);
         return Math.sqrt(c);
     }
 

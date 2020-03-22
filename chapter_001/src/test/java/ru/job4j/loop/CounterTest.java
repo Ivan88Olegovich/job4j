@@ -6,9 +6,9 @@ import static org.junit.Assert.assertThat;
 public class CounterTest {
     Counter counter = new Counter();
     @Test
-    public void whenSumEvenNumbersFromOneToTenThenThirty(){
+    public void whenSumEvenNumbersFromOneToTenThenThirty() {
         int expected = 30;
-        int result = counter.add(0,10);
+        int result = counter.add(0, 10);
         assertThat(result, is(expected));
     }
 }

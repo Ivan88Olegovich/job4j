@@ -4,20 +4,20 @@ import sun.security.provider.Sun;
 
 public class Converter {
 
-    public static int rubleToEuro( int value){
+    public static int rubleToEuro(int value) {
         return value / 70;
     }
 
-    public static int rubleToDollar( int value) {
+    public static int rubleToDollar(int value) {
 
         return value / 60;
     }
 
-    public static int euroToRuble ( int value) {
+    public static int euroToRuble(int value) {
         return  value * 70;
     }
 
-    public static int dollarToRuble ( int value) {
+    public static int dollarToRuble(int value) {
 
         return  value * 60;
     }
@@ -49,7 +49,7 @@ public class Converter {
         int in4 = 2;
         int expected4 = 120;
         int out4 = dollarToRuble(in4);
-        boolean passed4 = expected4 ==out4;
+        boolean passed4 = expected4 == out4;
         System.out.println("2 euro are 120. Test result : " + passed4);
 
 

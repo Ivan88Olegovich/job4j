@@ -1,9 +1,9 @@
 package ru.job4j.loop;
 
 public class CheckPrimeNumber {
-    public boolean check (int finish){
-        boolean prime = true ;
-      if (finish>1) {
+    public boolean check(int finish) {
+        boolean prime = true;
+      if (finish > 1) {
           for (int i = 2; i < finish; i++) {
 
 
@@ -11,8 +11,7 @@ public class CheckPrimeNumber {
                   prime = false;
               }
           }
-      }
-      else {
+      } else {
           prime = false;
       }
         return prime;

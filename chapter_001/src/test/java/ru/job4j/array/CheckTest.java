@@ -35,6 +35,6 @@ public class CheckTest {
         Check check = new Check();
         boolean[] input = new boolean[]{true, false, true, true};
         boolean result = check.mono(input);
-        assertThat(result , is(false));
+        assertThat(result, is(false));
     }
 }
