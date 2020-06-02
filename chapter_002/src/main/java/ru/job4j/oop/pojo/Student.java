@@ -7,27 +7,27 @@ public class Student {
     private String groupNumber;
     private Date dateOfReceipt;
 
-    public String getGroupNumber() {
+    private String getGroupNumber() {
         return groupNumber;
     }
 
-    public void setGroupNumber(String groupNumber) {
+    private void setGroupNumber(String groupNumber) {
         this.groupNumber = groupNumber;
     }
 
-    public Date getDateOfReceipt() {
+    private Date getDateOfReceipt() {
         return dateOfReceipt;
     }
 
-    public void setDateOfReceipt(Date dateOfReceipt) {
+    private void setDateOfReceipt(Date dateOfReceipt) {
         this.dateOfReceipt = dateOfReceipt;
     }
 
-    public String getStudent() {
+    private String getStudent() {
         return student;
     }
 
-    public void setStudent(String student) {
+    private void setStudent(String student) {
         this.student = student;
     }
 }
