@@ -31,7 +31,7 @@ public class Library {
         }
 
         for (int index = 0; index < book.length; index++) {
-            if (book[index].equals(cleanCode)) {
+            if (book[index].getTitle().equals("cleanCode")) {
                 System.out.println(book[index].getTitle() + "_" + book[index].getNaberOfPages());
             }
         }
