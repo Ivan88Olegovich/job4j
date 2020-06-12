@@ -13,7 +13,7 @@ public class Shop {
         products[4] = new Product("meat", 90);
 
 
-        shop.delete(products, 4);
+        shop.delete(products, 3);
 
         for (int i = 0; i < products.length; i++) {
             if (products[i] != null) {
@@ -30,8 +30,8 @@ public class Shop {
 
         for (int i = index; i < products.length - 1; i++) {
             products[i] = products[i + 1];
-            products[i + 1] = null;
         }
+        products[products.length - 1] = null;
         return products;
     }
 }
